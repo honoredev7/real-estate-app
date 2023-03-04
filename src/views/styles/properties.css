@@ -1,0 +1,46 @@
+button {
+    border: none;
+    outline: none;
+    background: none;
+    appearance: none;
+    user-select: none;
+    cursor: pointer;
+
+    color: #FFF;
+    font-size: 26px;
+    height: 46px;
+
+    opacity: 0.74;
+    transition: 0.4s;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+.vente {
+    background-color: blue;
+}
+
+.location {
+    background-color: green;
+}
+
+.modifier {
+    background-color: grey;
+}
+
+.supprimer {
+    background-color: crimson;
+}
+
+span {
+    opacity: 0.74;
+}
+span:hover {
+    opacity: 1;
+}
+
+.btn-icon:hover {
+    cursor: pointer;
+}

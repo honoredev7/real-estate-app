@@ -1,0 +1,22 @@
+.text-primary {
+    color: #FFF !important;
+    font-size: 1.02rem !important;
+    font-weight: bolder !important;
+}
+
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+
+.e-calendar .e-content {
+    width: 100%;
+}
+/* To specify background color, color, and border */
+.e-calendar .e-content td:hover span.e-day, .e-calendar .e-content td:focus span.e-day, .e-bigger.e-small .e-calendar .e-content td:hover span.e-day, .e-bigger.e-small .e-calendar .e-content td:focus span.e-day {
+    background-color: #00fff2;
+}
+
+.e-css.e-btn.e-today.e-flat.e-primary {
+    color: #FFF;
+    background-color: rgba(0, 255, 242, 0.7);
+
+    font-size: 16px;
+}
